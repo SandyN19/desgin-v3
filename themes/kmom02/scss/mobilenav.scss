@@ -43,6 +43,13 @@
       flex-direction: column;
       text-align: center;
   }
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+
 
   .nav ul li a {
       display: block;
@@ -84,6 +91,7 @@
     }
   }
 }
+
 .header {
   flex-direction: row;
   text-align: center;

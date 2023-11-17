@@ -82,14 +82,6 @@ p {
   padding: 3em 3em 3em 0;
 }
 
-@media (max-width: 767px) {
-  .title, .logo {
-      padding: 1em 1em 1em 0;
-  }
-  .title {
-      min-width: 50%;
-  }
-}
 
 .title {
   * {
@@ -119,10 +111,13 @@ p {
   background-color: #222;
   color: #fff;
   padding: 4rem 6rem;
-
-  a {
+  p {
     color: #fff;
   }
+  a {
+    color: transparent;
+  }
+
   .social {
     font-size: 2rem;
     margin-top: auto;

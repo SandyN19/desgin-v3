@@ -379,6 +379,12 @@ pre code {
     flex-direction: column;
     text-align: center;
   }
+  .title, .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
@@ -6608,14 +6614,6 @@ p {
   padding: 3em 3em 3em 0;
 }
 
-@media (max-width: 767px) {
-  .title, .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .title {
-    min-width: 50%;
-  }
-}
 .title * {
   color: #111;
   display: flex;
@@ -6639,8 +6637,11 @@ p {
   color: #fff;
   padding: 4rem 6rem;
 }
-.footer a {
+.footer p {
   color: #fff;
+}
+.footer a {
+  color: transparent;
 }
 .footer .social {
   font-size: 2rem;
