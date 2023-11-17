@@ -1,0 +1,101 @@
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav  {
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+
+  ul li {
+    padding: 0 1em;
+    flex: 0 0 auto;
+  }
+
+  a, .nav-toggle {
+    color: #333;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .nav ul {
+      flex-direction: column;
+      padding-bottom: 1em;
+  }
+
+  .nav ul li {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav ul li a {
+      display: block;
+      padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+      display: block;
+      float: right;
+      width: 2em;
+      margin: 0.6667em 0;
+      font-size: 1.5rem;
+      line-height: 2em;
+      text-align: center;
+      cursor: pointer;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+
+  /* Add flex-wrap property for responsiveness */
+  flex-wrap: wrap;
+
+  /* ... Other styles ... */
+
+  @media (max-width: 500px) {
+    .footer {
+      flex-direction: row;
+      text-align: center;
+    }
+
+    .social {
+      margin-top: 1em;
+      order: 2;
+    }
+  }
+}
+.header {
+  flex-direction: row;
+  text-align: center;
+  @media (max-width: 500px) {
+    .site-header {
+      flex-direction: column;
+      text-align: center;
+    }
+    .nav-toggle{
+      align-self: flex-end;
+    }
+  }
+}
+
+
