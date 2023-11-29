@@ -348,48 +348,34 @@ pre code {
   transition: height 0.5s ease-in !important;
 }
 
-.nav ul {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1em 0;
-  list-style: none;
-  flex-wrap: wrap;
-}
-.nav ul li {
-  padding: 0 1em;
-  flex: 0 0 auto;
-}
-.nav a, .nav .nav-toggle {
-  color: #333;
-}
 .nav .nav-toggle {
   display: none;
 }
-
 @media (max-width: 767px) {
-  .header {
+  .nav .header {
     flex-direction: column;
   }
-  .nav ul {
+  .nav .nav ul {
     flex-direction: column;
     padding-bottom: 1em;
   }
-  .nav ul li {
+  .nav .nav ul li {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .title, .logo {
+  .nav .title,
+  .nav .logo {
     padding: 1em 1em 1em 0;
   }
-  .title {
+  .nav .title {
     min-width: 50%;
   }
-  .nav ul li a {
+  .nav .nav ul li a {
     display: block;
     padding: 0.5em 0;
   }
-  .js .nav-toggle {
+  .js .nav .nav-toggle {
     display: block;
     float: right;
     width: 2em;
@@ -399,7 +385,21 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
+  .nav .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .nav .nav ul li {
+    padding: 0 1em;
+    flex: 0 0 auto;
+    color: #333;
+    list-style: none;
+  }
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -421,27 +421,104 @@ pre code {
 }
 
 .header {
-  flex-direction: row;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 500px) {
   .header .site-header {
     flex-direction: column;
     text-align: center;
   }
+  .header .nav li {
+    list-style: none;
+    pad: 0.5em;
+  }
   .header .nav-toggle {
     align-self: flex-end;
   }
 }
 
+@media (max-width: 500px) {
+  .single-technology {
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-menu {
+    display: none;
+    width: 0%;
+  }
+  .tech-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .landingpage {
   display: grid;
   gap: 1em 1em;
+  margin-bottom: 1em;
 }
-
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .landingpage {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.box {
+  padding: 10px;
+  background-color: #f00;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+.box.wide {
+  padding: 10px;
+  grid-column: span 2;
+  background-color: #0f0;
+  border: 1px solid #000;
+}
+.box.large {
+  grid-column: span 3;
+  padding: 10px;
+  background-color: #00f;
+  border: 1px solid #000;
+}
+
+.single-technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* single tecnology */
+.tech-menu {
+  width: 30%;
+  border: 1px solid #000;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.tech-menu h2 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.tech-menu h3 {
+  text-align: center;
+}
+.tech-menu a {
+  text-decoration: none;
+}
+.tech-menu a:hover {
+  color: #3f395f;
+}
+
+.tech-content {
+  width: 60%;
 }
 
 /*!
@@ -585,32 +662,32 @@ pre code {
   }
 }
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(1, -1);
 }
 
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
 
@@ -6563,7 +6640,12 @@ readers do not read off random characters that represent icons */
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6571,7 +6653,8 @@ body {
   background-color: #595f39;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
 
@@ -6579,7 +6662,8 @@ ol, ul {
   display: none !important;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6600,12 +6684,14 @@ p {
   font-size: 1.1em;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
 /* Header */
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
@@ -6616,11 +6702,12 @@ p {
 
 .nav a:hover {
   text-decoration: underline;
-  color: red;
+  color: #f00;
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
 }
 
@@ -6629,12 +6716,10 @@ p {
   display: flex;
   flex-direction: row;
   margin: 20px;
+  line-height: 1em;
 }
 .title .title p {
   font-style: italic;
-}
-.title .title h1 {
-  line-height: 30px;
 }
 
 /* Footer */
@@ -6642,8 +6727,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 4px solid #3f395f;
-  background-color: #222;
+  border-top: 4px solid #000;
+  background-color: #3f395f;
   color: #fff;
   padding: 4rem 6rem;
 }
@@ -6665,13 +6750,22 @@ body {
   line-height: 1.4rem;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   letter-spacing: 0.2em;

@@ -1,109 +1,137 @@
 .slide {
-  overflow-y: hidden !important;
-  transition: height 0.5s ease-in !important;
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
 }
 
-.nav  {
-
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-    flex-wrap: wrap;
-  }
-
-
-  ul li {
-    padding: 0 1em;
-    flex: 0 0 auto;
-  }
-
-  a, .nav-toggle {
-    color: #333;
-  }
-
-  .nav-toggle {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .header {
-      flex-direction: column;
-  }
-
-  .nav ul {
-      flex-direction: column;
-      padding-bottom: 1em;
-  }
-
-  .nav ul li {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-  }
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
+.nav {
+    .nav-toggle {
+        display: none;
     }
 
+    @media (max-width: 767px) {
+        .header {
+            flex-direction: column;
+        }
 
-  .nav ul li a {
-      display: block;
-      padding: 0.5em 0;
-  }
+        .nav ul {
+            flex-direction: column;
+            padding-bottom: 1em;
+        }
 
-  .js .nav-toggle {
-      display: block;
-      float: right;
-      width: 2em;
-      margin: 0.6667em 0;
-      font-size: 1.5rem;
-      line-height: 2em;
-      text-align: center;
-      cursor: pointer;
-  }
+        .nav ul li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .title,
+        .logo {
+            padding: 1em 1em 1em 0;
+        }
+
+        .title {
+            min-width: 50%;
+        }
+
+
+        .nav ul li a {
+            display: block;
+            padding: 0.5em 0;
+        }
+
+        .js & {
+            .nav-toggle {
+                display: block;
+                float: right;
+                width: 2em;
+                margin: 0.6667em 0;
+                font-size: 1.5rem;
+                line-height: 2em;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+
+        .nav ul {
+
+            display: flex;
+            justify-content: flex-end;
+            padding: 1em 0;
+            list-style: none;
+            flex-wrap: wrap;
+            
+            li {
+                padding: 0 1em;
+                flex: 0 0 auto;
+                color: #333;
+                list-style: none;
+        
+            }
+        }
+    }
 }
+
+
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
 
-  /* Add flex-wrap property for responsiveness */
-  flex-wrap: wrap;
+    /* Add flex-wrap property for responsiveness */
+    flex-wrap: wrap;
 
-  /* ... Other styles ... */
+    /* ... Other styles ... */
 
-  @media (max-width: 500px) {
-    .footer {
-      flex-direction: row;
-      text-align: center;
+    @media (max-width: 500px) {
+        .footer {
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .social {
+            margin-top: 1em;
+            order: 2;
+        }
     }
-
-    .social {
-      margin-top: 1em;
-      order: 2;
-    }
-  }
 }
 
 .header {
-  flex-direction: row;
-  text-align: center;
-  @media (max-width: 500px) {
-    .site-header {
-      flex-direction: column;
-      text-align: center;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 500px) {
+        .site-header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .nav li{
+            list-style: none;
+            pad: 0.5em;
+        }
+
+        .nav-toggle {
+            align-self: flex-end;
+        }
     }
-    .nav-toggle{
-      align-self: flex-end;
-    }
-  }
 }
 
+@media (max-width: 500px) {
+    .single-technology {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .tech-menu {
+        display: none;
+        width: 0%;
+    }
+
+    .tech-content {
+        width: 100%;  
+        margin: 0 auto
+    }
+
+
+}

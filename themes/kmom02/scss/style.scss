@@ -19,135 +19,158 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     color: $font-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  background-color: $background-color;
+    background-color: $background-color;
 }
 
 
-ol, ul {
-  padding-left: 1.5em;
+ol,
+ul {
+    padding-left: 1.5em;
 }
 
 .hidden {
-  display: none !important;
+    display: none !important;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
 
 /* Placement */
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
-  width: 80%;
-  margin: 0 auto;
-  flex:  1;
-}
-p {
-  margin-bottom: 1.4rem;
-  font-size: 1.1em;
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
 }
 
-.header, .footer {
-  flex: 0 0 auto;
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.1em;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
 
 }
 
 /* Header */
 
-.header, .site-header {
-  display: flex;
-  justify-content: space-between;
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav a{
-  text-decoration: none;
+
+.nav a {
+    text-decoration: none;
 }
-.nav a:hover{
-  text-decoration: underline;
-  color: red;
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #f00;
 }
 
 /* Title */
 
-.title, .logo {
-  padding: 3em 3em 3em 0;
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
 }
 
 
 .title {
-  * {
-    color: #111;
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-  }
+    * {
+        color: #111;
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        line-height: 1em;
+    }
 
-  .title p {
-    font-style: italic;
-  }
+    .title p {
+        font-style: italic;
+    }
 
-  .title h1 {
-    line-height: 30px;
-  }
-} 
+
+}
 
 
 /* Footer */
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top: 4px solid $accent-color;
-  background-color: #222;
-  color: #fff;
-  padding: 4rem 6rem;
-  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 4px solid $font-color;
+    background-color: $accent-color;
     color: #fff;
-  }
-  a {
-    color: transparent;
-  }
+    padding: 4rem 6rem;
 
-  .social {
-    font-size: 2rem;
-    margin-top: auto;
-    align-self: flex-end;
-  }
+    p {
+        color: #fff;
+    }
+
+    a {
+        color: transparent;
+    }
+
+    .social {
+        font-size: 2rem;
+        margin-top: auto;
+        align-self: flex-end;
+    }
 
 }
 
 /* Typografy */
 
 body {
-  font-family: sans-serif;
-  line-height: 1.4rem;
+    font-family: sans-serif;
+    line-height: 1.4rem;
 }
 
-p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.6em;
-  font-weight: bold;
-  letter-spacing: 0.2em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
 
 }
 
 img {
-  width: 40%;
+    width: 40%;
 }
