@@ -1,5 +1,20 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #3f395f;
-$background-color: #595f39;
-$background-alternative-color: #C4C5BA;
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playfair+Display+SC&display=swap');
+
+$header-font: 'Playfair Display SC', serif;
+$main-font: 'Luxurious Roman', serif;
+
+$font-color: #2f3542;
+$accent-color: #C1D3FE;
+$background-color: #edf2fb;
+
+$font-alternative-color: #2ed573;
+$background-alternative-color: #21252e;
+$accent-alternative-color: #171a20;
+
+$box-color1: #ABC4FF;
+$box-color2: #B6CCFE; 
+$box-color3: #C1D3FE;
+
+$box-alternative-color1: #343a40;
+$box-alternative-color2: #495057;
+$box-alternative-color3: #6c757d;

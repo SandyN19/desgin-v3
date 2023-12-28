@@ -1,5 +1,5 @@
 ---
-Logo: image/sus.png
+Logo: image/NJ.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
@@ -8,5 +8,10 @@ Social:
     - title: Link till dbwebb discord
       url: https://discord.gg/vDyd2B9WHx
       icon: fab fa-discord
-
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

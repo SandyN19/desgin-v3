@@ -22,21 +22,21 @@
 
 .box{
     padding: 10px;
-    background-color: $box-color1;
+    background-color: $box-alternative-color1;
     border: 1px solid #000;
     text-decoration: none;
 
     &.wide{
         padding: 10px;
         grid-column: span 2;
-        background-color: $box-color2;
+        background-color: $box-alternative-color2;
         border: 1px solid #000;
     }
 
     &.large{
         grid-column: span 3;
         padding: 10px;
-        background-color: $box-color3;
+        background-color: $box-alternative-color2;
         border: 1px solid #000;
     }
 }

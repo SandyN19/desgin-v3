@@ -472,20 +472,20 @@ pre code {
 
 .box {
   padding: 10px;
-  background-color: #ABC4FF;
+  background-color: #343a40;
   border: 1px solid #000;
   text-decoration: none;
 }
 .box.wide {
   padding: 10px;
   grid-column: span 2;
-  background-color: #B6CCFE;
+  background-color: #495057;
   border: 1px solid #000;
 }
 .box.large {
   grid-column: span 3;
   padding: 10px;
-  background-color: #C1D3FE;
+  background-color: #495057;
   border: 1px solid #000;
 }
 
@@ -523,7 +523,7 @@ pre code {
 
 * {
   font-family: "Luxurious Roman", serif;
-  color: #2f3542;
+  color: #2ed573;
 }
 
 body {
@@ -558,13 +558,13 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 4px solid #2f3542;
-  background-color: #C1D3FE;
-  color: #2f3542;
+  border-top: 4px solid #2ed573;
+  background-color: #171a20;
+  color: #2ed573;
   padding: 4rem 6rem;
 }
 .footer p {
-  color: #2f3542;
+  color: #2ed573;
 }
 .footer a {
   color: transparent;
@@ -6701,7 +6701,7 @@ ul {
 html,
 body {
   height: 100%;
-  background-color: #edf2fb;
+  background-color: #21252e;
 }
 
 /* Placement */
@@ -6736,22 +6736,22 @@ p {
 
 .nav a {
   text-decoration: none;
-  color: #2f3542;
+  color: #2ed573;
 }
 
 .nav a:hover {
   text-decoration: underline;
-  color: #abc4ff;
+  color: #FF0;
 }
 
 .logo {
   margin-left: 10px;
-  filter: none;
+  filter: drop-shadow(16px 16px 20px #00F) invert(75%);
 }
 
 .title * {
   padding: 1em 1em 1em 0;
-  color: #2f3542;
+  color: #2ed573;
   display: flex;
   flex-direction: row;
   margin: 20px;

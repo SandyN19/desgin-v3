@@ -4,9 +4,9 @@
 @import 'blockquotes';
 @import 'code';
 @import 'mobilenav';
-@import 'technology';
-@import 'Typografy';
-@import 'footer';
+@import 'technologydark';
+@import 'Typografydark';
+@import 'footerdark';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -28,7 +28,7 @@ ul {
 html,
 body {
     height: 100%;
-    background-color: $background-color;
+    background-color: $background-alternative-color;
 }
 
 /* Placement */
@@ -67,24 +67,24 @@ p {
 
 .nav a {
     text-decoration: none;
-    color: $font-color;
+    color: $font-alternative-color;
 }
 
 .nav a:hover {
     text-decoration: underline;
-    color: #abc4ff;
+    color: #FF0;
 }
 
 .logo {
     margin-left: 10px;
-    filter: none;
-
+    filter: drop-shadow(16px 16px 20px #00F) invert(75%);
 }
+
 
 .title {
     * {
         padding: 1em 1em 1em 0;
-        color: $font-color;
+        color: $font-alternative-color;
         display: flex;
         flex-direction: row;
         margin: 20px;
@@ -97,6 +97,9 @@ p {
 
 
 }
+
+
+
 
 img {
     width: 40%;

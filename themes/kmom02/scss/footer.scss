@@ -1,0 +1,26 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 4px solid $font-color;
+    background-color: $accent-color;
+    color: $font-color;
+    padding: 4rem 6rem;
+
+    p {
+        color: $font-color;
+    }
+
+    a {
+        color: transparent;
+    }
+
+    .social {
+        font-size: 2rem;
+        margin-top: auto;
+        align-self: flex-end;
+    }
+
+}
