@@ -17,7 +17,7 @@ Resultat
 -----------------------
 
 
-<img class="analysisImg" src ="../image/sigma.png">
+<img class="analysisimg" src ="../image/sigma.png">
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -37,7 +37,7 @@ Hela sidan verkar använda sig av "Sigma Sans Condensed", "Helvetica Neue", Helv
 Känslan jag tror Sigma vill signalera med på webbsidan är tillit och passion. Det monokromatiska färgschemat ger ett lugn. Den röda färgen som signalerar starka känslor som energi och passion används lagom på webbsidan och på ställen där de vill att besökaren ska kolla på. Det blir balans på webbsidan som då ger känslan att Sigma är ett passionerat företag som man kanske vill vara en del av.
 
 
-<img class="analysisImg" src ="../image/telenor.png">
+<img class="analysisimg" src ="../image/telenor.png">
 
 
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -58,7 +58,7 @@ Till rubriker som H1 och H2 har Telenor använt typsnitten telenorlight, arial, 
 Färgen blå används flitigt på Telenors webbsida. Deras logga är blå, länkar och knappar är blåa och oftast har deras bilder också en blå bakgrund. För att få besökaren att kolla extra på kampanjer och nyheter har webbsidan färgerna rosa och gul. Det syns att Telenor är ett teknik/innovation företag för färgen blå symboliserar det. Det är det jag också tror de vill visa att de är.
 
 
-<img class="analysisImg" src ="../image/atea.png">
+<img class="analysisimg" src ="../image/atea.png">
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
