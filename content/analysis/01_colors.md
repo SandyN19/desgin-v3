@@ -60,13 +60,6 @@ Färgen blå används flitigt på Telenors webbsida. Deras logga är blå, länk
 
 <img class="analysisImg" src ="../image/atea.png">
 
-<span class="boldtext">Atea</span> har likt  Sigma ett monokromatiskt färgschema med grått och en kontrastfärg. I detta fall färgen grönt.
-
-ATEA har samma typsnitt på all sin text. De använder sig av Inter, sans-serif och skiljer på rubriker och brödtext med fetstil.
-
-Det första som syns när webbsidan besöks är texten "Digitalisering som möter framtidens behov". De är alltså ett företag vill förbättra digitaliseringen samtidigt som det bidrar till ett mer hållbart samhälle. Den gröna färgen som symboliserar natur förstärker deras bild och syfte. Kontrast färgen grönt används där de vill att besökaren ska kolla på såsom ikoner och knappar.
-
-
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #1f981f">
@@ -75,6 +68,15 @@ Det första som syns när webbsidan besöks är texten "Digitalisering som möte
 <td style="height: 50px; width: 50px; background-color: #ffffff">
 </tr>
 </table>
+
+<span class="boldtext">Atea</span> har likt  Sigma ett monokromatiskt färgschema med grått och en kontrastfärg. I detta fall färgen grönt.
+
+ATEA har samma typsnitt på all sin text. De använder sig av Inter, sans-serif och skiljer på rubriker och brödtext med fetstil.
+
+Det första som syns när webbsidan besöks är texten "Digitalisering som möter framtidens behov". De är alltså ett företag vill förbättra digitaliseringen samtidigt som det bidrar till ett mer hållbart samhälle. Den gröna färgen som symboliserar natur förstärker deras bild och syfte. Kontrast färgen grönt används där de vill att besökaren ska kolla på såsom ikoner och knappar.
+
+
+
 
 
 
