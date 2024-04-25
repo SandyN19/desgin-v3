@@ -1,5 +1,6 @@
-webbplatsers laddningstid och användbarhet
-=======================
+
+<h1 class= "analysish1">webbplatsers laddningstid och användbarhet</h1>
+
 
 <p class ="load_text_center">Syftet med uppgiften är att analysera webbsidors laddningstid och användbarhet.</p>
 
@@ -57,6 +58,6 @@ Jag tror 5 sekunder är en bra till för webbsidors laddningstid. Ingen de sidor
 Övrigt
 -----------------------
 
-<p class = "load_text_center">
+<h3>
 Sandy Nguyen
-</p>
+</h3>

@@ -1,5 +1,7 @@
-webbplatsers färgval och känslan de signalerar
-=======================
+
+<h1 class= "analysish1">webbplatsers färgval och känslan de signalerar</h1>
+
+
 <p class = "load_text_center">
 Syftet med uppgiften är att analysera webbsidors färgval.
 </p>
@@ -97,6 +99,6 @@ Telenors webbsida använder sig av två olika typsnitt. Skillnaden på rubriker 
 Övrigt
 -----------------------
 
-<p class = "load_text_center">
+<h3>
 Sandy Nguyen
-</p>
+</h3>

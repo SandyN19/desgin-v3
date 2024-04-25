@@ -1,10 +1,9 @@
 ---
 Title: Gallery
 Description: This is my gallery page.
+Template: gallery
 ---
 
-Gallery page
-==========================
 <div class = "gallerylandingpage">
     <a href= "%base_url%/image/img1.jpg"><img class="flash-img" src="%base_url%/image/img1.jpg?width=20%&q=20" alt=""></a>
     <a href= "%base_url%/image/img2.jpg"><img class="flash-img" src="%base_url%/image/img2.jpg?width=20%&q=20" alt=""></a>

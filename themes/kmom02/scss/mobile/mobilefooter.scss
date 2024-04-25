@@ -1,0 +1,25 @@
+.footer {
+    @media (max-width: 500px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    /* Add flex-wrap property for responsiveness */
+    flex-wrap: wrap;
+
+    /* ... Other styles ... */
+
+   
+        .footer {
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .social {
+            margin-top: 1em;
+            order: 2;
+            margin: 0 auto;
+        }
+    }
+}

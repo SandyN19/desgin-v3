@@ -1,0 +1,40 @@
+.main{
+    @media (max-width: 500px) {
+        width: 110%;
+    }
+    h1 {
+        @media (max-width: 500px) {
+            text-align: left;
+            white-space: nowrap;
+        }
+    }
+    .analysish1 {
+        @media (max-width: 500px) {
+        text-align: left;
+        white-space: pre-line;
+        line-height: 2rem;
+        font-size: 1.6rem;
+        }
+    }
+    .tech1 {
+        @media (max-width: 500px) {
+            text-align: center;
+        }
+    }
+    p {
+        @media (max-width: 500px) {
+            text-align: left;
+            word-break: normal;
+            line-height: 1.7rem;
+        }
+    }
+    .landingpage {
+        h1 {
+            @media (max-width: 500px) {
+                font-size: 1rem;
+            }
+        }
+        
+    }
+    
+}

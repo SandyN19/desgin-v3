@@ -1,7 +1,7 @@
 ---
 Title: Analysis
 Description: This is my analysis page.
-Template: technologies
+Template: analysis
 ---
 
 <div class="box">

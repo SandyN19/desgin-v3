@@ -343,115 +343,6 @@ pre code {
   line-height: 1.4;
 }
 
-.slide {
-  overflow-y: hidden !important;
-  transition: height 0.5s ease-in !important;
-}
-
-.nav .nav-toggle {
-  display: none;
-}
-@media (max-width: 767px) {
-  .nav .header {
-    flex-direction: column;
-  }
-  .nav .nav ul {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  .nav .nav ul li {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .nav .title,
-  .nav .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .nav .title {
-    min-width: 50%;
-  }
-  .nav .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-  .js .nav .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-  .nav .nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-    flex-wrap: wrap;
-  }
-  .nav .nav ul li {
-    padding: 0 1em;
-    flex: 0 0 auto;
-    color: #333;
-    list-style: none;
-  }
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-  /* Add flex-wrap property for responsiveness */
-  flex-wrap: wrap;
-  /* ... Other styles ... */
-}
-@media (max-width: 500px) {
-  .footer .footer {
-    flex-direction: row;
-    text-align: center;
-  }
-  .footer .social {
-    margin-top: 1em;
-    order: 2;
-  }
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-}
-@media (max-width: 500px) {
-  .header .site-header {
-    flex-direction: column;
-    text-align: center;
-  }
-  .header .nav li {
-    list-style: none;
-    pad: 0.5em;
-  }
-  .header .nav-toggle {
-    align-self: flex-end;
-  }
-}
-
-@media (max-width: 500px) {
-  .single-technology {
-    display: flex;
-    flex-direction: column;
-  }
-  .tech-menu {
-    display: none;
-    width: 0%;
-  }
-  .tech-content {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
 .landingpage {
   display: grid;
   gap: 1em 1em;
@@ -552,6 +443,7 @@ h6 {
   letter-spacing: 0.2em;
   font-family: "Playfair Display SC", serif;
   text-align: center;
+  line-height: 1.5rem;
 }
 
 .load_text_center {
@@ -605,7 +497,7 @@ h6 {
 
 .site-header {
   background-color: #171a20;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #2ed573;
 }
 
 .nav {
@@ -675,6 +567,157 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav .nav-toggle {
+  display: none;
+}
+@media (max-width: 767px) {
+  .nav .header {
+    flex-direction: column;
+  }
+  .nav .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav .title,
+  .nav .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .nav .title {
+    min-width: 50%;
+  }
+  .nav .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+  .nav .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  .nav .nav ul li {
+    padding: 0 1em;
+    flex: 0 0 auto;
+    color: #333;
+    list-style: none;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .header .site-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .nav li {
+    list-style: none;
+    pad: 0.5em;
+  }
+  .header .nav-toggle {
+    align-self: flex-end;
+  }
+  .header .logo-img {
+    width: 100%;
+    margin: 0.4rem 0 0 0.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .single-technology {
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-menu {
+    display: none;
+    width: 0%;
+  }
+  .tech-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    width: 110%;
+  }
+}
+@media (max-width: 500px) {
+  .main h1 {
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 500px) {
+  .main .analysish1 {
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  .main .tech1 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main p {
+    text-align: left;
+    word-break: normal;
+    line-height: 1.7rem;
+  }
+}
+@media (max-width: 500px) {
+  .main .landingpage h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    /* Add flex-wrap property for responsiveness */
+    flex-wrap: wrap;
+    /* ... Other styles ... */
+  }
+  .footer .footer {
+    flex-direction: row;
+    text-align: center;
+  }
+  .footer .social {
+    margin-top: 1em;
+    order: 2;
+    margin: 0 auto;
+  }
 }
 
 /*!

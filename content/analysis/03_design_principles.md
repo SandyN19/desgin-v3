@@ -1,5 +1,5 @@
-Designprinciper
-=======================
+<h1 class= "analysish1">Design - principer och element</h1>
+
 
 <p class = "load_text_center">
 Syftet med uppgiften är att Utvärdera designprinciper som webbplatser använder sig av.
@@ -9,7 +9,7 @@ Urval
 -----------------------
 
 <p class = "load_text_center">
-Jag brukar inte besöka personliga bloggar särskillt mycket så jag googlade best personal blogs och tog tre bloggar från en top 10 lista. De tre bloggarna är <a href = "https://jamesclear.com/">jamesclear.com<a>, <a href = "https://www.jencarrington.com/">jencarrington.com<a> & <a href = "https://zenhabits.net">zenhabits.net/<a>
+Jag brukar inte besöka personliga bloggar särskillt mycket så jag googlade best personal blogs och tog tre bloggar från en top 10 lista. De tre bloggarna är <a href = "https://jamesclear.com/">jamesclear.com<a>, <a href = "https://www.jencarrington.com/">jencarrington.com<a> & <a href = "https://zenhabits.net">zenhabits.net<a>
 </p>
 
 Metod
@@ -81,8 +81,11 @@ Det som kännetecknar min egna sida är den blåa färgen. Jag vill nog ändra d
 Sedan flytta upp navbaren så att blir ett bra flow på sidan. Annars vill jag behålla resten av de val som har gjots under sidans arbetsprocess.
 
 
-Jag har ändrat så sidan blir grid 5 columns. Ändrat flowet till T
+Jag har ändrat så sidan blir grid 5 columns. Ändrat flowet till T.
 
 Övrigt
 -----------------------
+
+<h3>
 Sandy Nguyen
+</h3>

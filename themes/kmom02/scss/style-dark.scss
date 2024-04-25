@@ -3,13 +3,18 @@
 
 @import 'blockquotes';
 @import 'code';
-@import 'mobilenav';
 @import 'technologydark';
 @import 'Typografydark';
 @import 'footerdark';
 @import 'speed-analysis';
 @import 'header-dark';
 @import 'gallery';
+
+
+@import 'mobile/mobilenav';
+@import 'mobile/mobileheader';
+@import 'mobile/mobilemain';
+@import 'mobile/mobilefooter';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
