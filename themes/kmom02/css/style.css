@@ -560,24 +560,29 @@ h6 {
 
 /* Footer */
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  grid-row: 3;
+  grid-column: 1/span 5;
+  display: list-item;
+  text-align: center;
   border-top: 4px solid #2f3542;
-  background-color: #C1D3FE;
+  background-color: #edf2fb;
   color: #2f3542;
-  padding: 4rem 6rem;
+  justify-content: center;
+  padding: 0;
 }
 .footer p {
   color: #2f3542;
+  margin-top: 1.4rem;
+  text-align: center;
 }
 .footer a {
   color: transparent;
 }
 .footer .social {
   font-size: 2rem;
-  margin-top: auto;
-  align-self: flex-end;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
 }
 
 .gallerylandingpage {
@@ -628,6 +633,47 @@ img {
 .speed-analysis {
   justify-content: center;
   height: 300px;
+}
+
+/* Header */
+.header, .site-header {
+  grid-row: 1;
+  grid-column: 1/span 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header {
+  background-color: #edf2fb;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  margin-right: 1rem;
+}
+
+.nav ul li {
+  padding-right: 0px;
+  padding-left: 1.4rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #2f3542;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #abc4ff;
+}
+
+.logo {
+  padding: 0px;
+  width: 15%;
+  filter: none;
+}
+.logo a {
+  width: 100%;
 }
 
 /*!
@@ -6756,20 +6802,23 @@ ul {
 html,
 body {
   height: 100%;
-  background-color: #edf2fb;
 }
 
 /* Placement */
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  background-color: #fff;
 }
 
 .main {
-  width: 80%;
-  margin: 0 auto;
-  flex: 1;
+  grid-row: 2;
+  grid-column-start: 2;
+  grid-column-end: 5;
   background-color: transparent;
+  justify-content: center;
 }
 
 p {
@@ -6783,39 +6832,22 @@ p {
 }
 
 /* Header */
-.header,
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
+/* .title {
+    * {
+        padding: 1em 1em 1em 0;
+        color: $font-color;
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        line-height: 1em;
+    }
 
-.nav a {
-  text-decoration: none;
-  color: #2f3542;
-}
+    .title p {
+        font-style: italic;
+    }
 
-.nav a:hover {
-  text-decoration: underline;
-  color: #abc4ff;
-}
 
-.logo {
-  margin-left: 10px;
-  filter: none;
-}
-
-.title * {
-  padding: 1em 1em 1em 0;
-  color: #2f3542;
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-  line-height: 1em;
-}
-.title .title p {
-  font-style: italic;
-}
-
+} */
 .analysisimg {
   width: 50%;
   float: right;

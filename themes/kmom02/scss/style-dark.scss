@@ -8,6 +8,8 @@
 @import 'Typografydark';
 @import 'footerdark';
 @import 'speed-analysis';
+@import 'header-dark';
+@import 'gallery';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -29,21 +31,25 @@ ul {
 html,
 body {
     height: 100%;
-    background-color: $background-alternative-color;
+    
 }
 
 /* Placement */
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 20px;
+    background-color: $background-alternative-color;
 }
 
 .main {
-    width: 80%;
-    margin: 0 auto;
-    flex: 1;
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
     background-color: transparent;
+    justify-content: center;
 }
 
 p {
@@ -59,45 +65,7 @@ p {
 
 /* Header */
 
-.header,
-.site-header {
-    display: flex;
-    justify-content: space-between;
-}
 
-
-.nav a {
-    text-decoration: none;
-    color: $font-alternative-color;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #FF0;
-}
-
-.logo {
-    margin-left: 10px;
-    filter: drop-shadow(16px 16px 20px #00F) invert(75%);
-}
-
-
-.title {
-    * {
-        padding: 1em 1em 1em 0;
-        color: $font-alternative-color;
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-        line-height: 1em;
-    }
-
-    .title p {
-        font-style: italic;
-    }
-
-
-}
 
 
 .analysisimg{
@@ -115,9 +83,4 @@ img {
 .boldtext{
     font-weight: bold;
     font-size: 1.5em;
-}
-
-
-img {
-    width: 40%;
 }

@@ -9,7 +9,7 @@
 @import 'footer';
 @import 'gallery';
 @import 'speed-analysis';
-
+@import 'header';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -31,60 +31,47 @@ ul {
 html,
 body {
     height: 100%;
-    background-color: $background-color;
+    
+    
 }
 
 /* Placement */
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 20px;
+    background-color: #fff;
 }
 
 .main {
-    width: 80%;
-    margin: 0 auto;
-    flex: 1;
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
     background-color: transparent;
-}
+    justify-content: center;
+    }
+
 
 p {
     margin-bottom: 1.4rem;
     font-size: 1.1em;
+    
 }
 
 .header,
 .footer {
     flex: 0 0 auto;
+    
 
 }
 
 /* Header */
 
-.header,
-.site-header {
-    display: flex;
-    justify-content: space-between;
-}
 
 
-.nav a {
-    text-decoration: none;
-    color: $font-color;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #abc4ff;
-}
-
-.logo {
-    margin-left: 10px;
-    filter: none;
-
-}
-
-.title {
+/* .title {
     * {
         padding: 1em 1em 1em 0;
         color: $font-color;
@@ -99,7 +86,7 @@ p {
     }
 
 
-}
+} */
 
 .analysisimg{
     width: 50%;

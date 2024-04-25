@@ -1,0 +1,42 @@
+.header,
+.site-header {
+    grid-row: 1;
+    grid-column: 1 / span 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+    background-color: $accent-alternative-color;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.nav{
+    margin-right: 1rem;
+}
+
+.nav ul li {
+    padding-right: 0px;
+    padding-left: 1.4rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: $font-alternative-color;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #FF0;
+}
+
+.logo {
+    padding: 0px;
+    width: 15%;
+    a {
+        width: 100%;
+    }
+    margin-left: 10px;
+    filter: drop-shadow(16px 16px 20px #00F) invert(75%);
+}

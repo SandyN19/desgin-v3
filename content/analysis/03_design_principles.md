@@ -80,6 +80,9 @@ De desgin principer som har implenteras hittills är färgval, typografi och gri
 Det som kännetecknar min egna sida är den blåa färgen. Jag vill nog ändra det till vit bakgrund och använda den ljublåa färgen som en konstrastfärg.
 Sedan flytta upp navbaren så att blir ett bra flow på sidan. Annars vill jag behålla resten av de val som har gjots under sidans arbetsprocess.
 
+
+Jag har ändrat så sidan blir grid 5 columns. Ändrat flowet till T
+
 Övrigt
 -----------------------
 Sandy Nguyen
