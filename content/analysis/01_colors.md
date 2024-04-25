@@ -1,17 +1,20 @@
 webbplatsers färgval och känslan de signalerar
 =======================
-
+<p class = "load_text_center">
 Syftet med uppgiften är att analysera webbsidors färgval.
+</p>
 
 Urval
 -----------------------
-
+<p class = "load_text_center">
 Jag bor på campus Gräsvik och det ligger väldigt nära Blue Science Park. Jag fick då insporation att välja 3 it-företag, Sigma, Telenor och ATEA
+</p>
 
 Metod
 -----------------------
-
+<p class = "load_text_center">
 Jag använder mig av Firefox. I webbläsaren kan man välja att inspektera sidan och i konsolen finns det en färgväljarfunktion. Sedan använde jag mig av adobe color som hjälpmedel för färghjulet och färgschema.
+</p>
 
 Resultat
 -----------------------
@@ -93,4 +96,7 @@ Telenors webbsida använder sig av två olika typsnitt. Skillnaden på rubriker 
 
 Övrigt
 -----------------------
+
+<p class = "load_text_center">
 Sandy Nguyen
+</p>

@@ -56,4 +56,7 @@ Jag tror 5 sekunder är en bra till för webbsidors laddningstid. Ingen de sidor
 
 Övrigt
 -----------------------
+
+<p class = "load_text_center">
 Sandy Nguyen
+</p>
