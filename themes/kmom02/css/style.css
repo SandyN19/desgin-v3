@@ -446,7 +446,7 @@ h6 {
   line-height: 2rem;
 }
 
-.load_text_center {
+.load-text-center {
   text-align: center;
 }
 
@@ -545,7 +545,6 @@ img {
 }
 
 .nav ul li {
-  padding-right: 0px;
   padding-left: 1.4rem;
 }
 
@@ -560,7 +559,6 @@ img {
 }
 
 .logo {
-  padding: 0px;
   width: 15%;
   filter: none;
 }
