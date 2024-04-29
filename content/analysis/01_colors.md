@@ -2,19 +2,19 @@
 <h1 class= "analysish1">webbplatsers färgval och känslan de signalerar</h1>
 
 
-<p class = "load_text_center">
+<p class = "load-text-center">
 Syftet med uppgiften är att analysera webbsidors färgval.
 </p>
 
 Urval
 -----------------------
-<p class = "load_text_center">
+<p class = "load-text-center">
 Jag bor på campus Gräsvik och det ligger väldigt nära Blue Science Park. Jag fick då insporation att välja 3 it-företag, Sigma, Telenor och ATEA
 </p>
 
 Metod
 -----------------------
-<p class = "load_text_center">
+<p class = "load-text-center">
 Jag använder mig av Firefox. I webbläsaren kan man välja att inspektera sidan och i konsolen finns det en färgväljarfunktion. Sedan använde jag mig av adobe color som hjälpmedel för färghjulet och färgschema.
 </p>
 
@@ -22,7 +22,7 @@ Resultat
 -----------------------
 
 
-<img class="analysisimg" src ="../image/sigma.png">
+<img class="analysisimg" src ="../image/sigma.png" alt ="Sigma website">
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -42,7 +42,8 @@ Hela sidan verkar använda sig av "Sigma Sans Condensed", "Helvetica Neue", Helv
 Känslan jag tror Sigma vill signalera med på webbsidan är tillit och passion. Det monokromatiska färgschemat ger ett lugn. Den röda färgen som signalerar starka känslor som energi och passion används lagom på webbsidan och på ställen där de vill att besökaren ska kolla på. Det blir balans på webbsidan som då ger känslan att Sigma är ett passionerat företag som man kanske vill vara en del av.
 
 
-<img class="analysisimg" src ="../image/telenor.png">
+<img class="analysisimg" src ="../image/telenor.png"
+alt ="Telenor website">
 
 
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -63,7 +64,8 @@ Till rubriker som H1 och H2 har Telenor använt typsnitten telenorlight, arial, 
 Färgen blå används flitigt på Telenors webbsida. Deras logga är blå, länkar och knappar är blåa och oftast har deras bilder också en blå bakgrund. För att få besökaren att kolla extra på kampanjer och nyheter har webbsidan färgerna rosa och gul. Det syns att Telenor är ett teknik/innovation företag för färgen blå symboliserar det. Det är det jag också tror de vill visa att de är.
 
 
-<img class="analysisimg" src ="../image/atea.png">
+<img class="analysisimg" src ="../image/atea.png"
+alt ="Atea website">
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>

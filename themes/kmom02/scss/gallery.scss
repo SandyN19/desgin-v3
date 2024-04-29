@@ -3,6 +3,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
     margin-bottom: 1em;
+
+    p {
+        font-size: 0;
+    }
 }
 
 @media (max-width: 500px) {

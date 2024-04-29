@@ -2,28 +2,28 @@
 <h1 class= "analysish1">webbplatsers laddningstid och användbarhet</h1>
 
 
-<p class ="load_text_center">Syftet med uppgiften är att analysera webbsidors laddningstid och användbarhet.</p>
+<p class ="load-text-center">Syftet med uppgiften är att analysera webbsidors laddningstid och användbarhet.</p>
 
 Urval
 -----------------------
 
-<p class = "load_text_center">Jag gör denna uppgift april 2024 och det snöar ute. April vädret i Sverige är väldigt lustigt. Det kan snöa ena sekunden och sedan är det skinade sol. Det inpirerade mig att välja 3 webbsidor som visar väderprognosen.</p>
+<p class = "load-text-center">Jag gör denna uppgift april 2024 och det snöar ute. April vädret i Sverige är väldigt lustigt. Det kan snöa ena sekunden och sedan är det skinade sol. Det inpirerade mig att välja 3 webbsidor som visar väderprognosen.</p>
 
 Metod
 -----------------------
 
-<p class = "load_text_center">Jag använder mig av google chrome och pagespeed.web.dev samt google kalkylark.</p>
+<p class = "load-text-center">Jag använder mig av google chrome och pagespeed.web.dev samt google kalkylark.</p>
 
 Resultat
 -----------------------
 <div class = "speed-analysis">
-<iframe class = "excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6byXhgJBL7W5j5q2P9cgyKV_B9PWQfm_2DgokaygxE4QSY112Vlz27DhnOyfVjclG4RaTtBhKz_2O/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class = "excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6byXhgJBL7W5j5q2P9cgyKV_B9PWQfm_2DgokaygxE4QSY112Vlz27DhnOyfVjclG4RaTtBhKz_2O/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="Google excel with data"></iframe>
 
-<img class="analysisimg" src ="../image/smhi.png">
+<img class="analysisimg" src ="../image/smhi.png" alt = "SMHI">
 
-<img class="analysisimg" src ="../image/klart.png">
+<img class="analysisimg" src ="../image/klart.png" alt = "klart">
 
-<img class="analysisimg" src ="../image/foreca.png">
+<img class="analysisimg" src ="../image/foreca.png" alt = "foreca">
 </div>
 SMHI sidan skulle kunna laddas en aning snabbare om sidan inte hade så många layouts på samma sida.
 

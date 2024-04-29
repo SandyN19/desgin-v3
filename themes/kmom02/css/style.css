@@ -483,6 +483,9 @@ h6 {
   gap: 1em;
   margin-bottom: 1em;
 }
+.gallerylandingpage p {
+  font-size: 0;
+}
 
 @media (max-width: 500px) {
   .gallerylandingpage {

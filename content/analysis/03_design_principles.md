@@ -1,20 +1,20 @@
 <h1 class= "analysish1">Design - principer och element</h1>
 
 
-<p class = "load_text_center">
+<p class = "load-text-center">
 Syftet med uppgiften är att Utvärdera designprinciper som webbplatser använder sig av.
 </p>
 
 Urval
 -----------------------
 
-<p class = "load_text_center">
+<p class = "load-text-center">
 Jag brukar inte besöka personliga bloggar särskillt mycket så jag googlade best personal blogs och tog tre bloggar från en top 10 lista. De tre bloggarna är <a href = "https://jamesclear.com/">jamesclear.com<a>, <a href = "https://www.jencarrington.com/">jencarrington.com<a> & <a href = "https://zenhabits.net">zenhabits.net<a>
 </p>
 
 Metod
 -----------------------
-<p class = "load_text_center">
+<p class = "load-text-center">
 Innan jag påbörjade uppgiften läste jag igenom Design elements and principles från Canva. Jag antecknade även stödord som jag sedan kommer att anvädna mig av när jag analyserar webbsidorna.
 </p>
 Resultat
